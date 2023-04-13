@@ -1,0 +1,11 @@
+.career-section1{
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 10rem;
+}
+@media (max-width:500px) {
+    .more-details{
+        display: none;
+    }
+    
+}

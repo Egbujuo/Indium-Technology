@@ -1,0 +1,58 @@
+.careerPro-input{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.careerPro-input input{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  background: #f5f5fa;
+  box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(170, 170, 204, 0.25),
+    inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #ffffff;
+  border-radius: 10px;
+}
+.input3 textarea{
+  background: #f5f5fa;
+  box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(170, 170, 204, 0.25),
+    inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #ffffff;
+  border-radius: 10px;
+}
+.input2{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.input2 input{
+  width: 100%;
+  margin: 0 auto;
+  background: #f5f5fa;
+  box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(170, 170, 204, 0.25),
+    inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #ffffff;
+  border-radius: 10px;
+}
+@media (min-width:768px) {
+  .careerPro-input {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .input2{
+    flex-direction: row;
+    gap: 40px;
+  }
+  .input2 input{
+    width: 50%;
+ 
+  }
+  
+  .careerPro-input input{
+    width: 100%;
+  }
+  
+}

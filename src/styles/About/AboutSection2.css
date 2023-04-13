@@ -1,0 +1,37 @@
+.aboutSection2{
+    background: whitesmoke;
+}
+
+.about-section2-wrap1{
+    background: #454654;
+    color: #fff;
+    height: 377px;
+    border-radius: 16px;
+
+}
+.about-section2-wrap2{
+    background: whitesmoke;
+    height: 377px;
+    border-radius: 16px;
+
+}
+.about-section2-btn{
+    background: linear-gradient(180deg, #EB3F57 0%, #893944 100%);
+    color: #fff;
+    padding: 5px;
+    border-radius: 32px;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    line-height: 19.07px;
+    font-weight: 700;
+    width: 89px;
+}
+.about-section2-btn:hover{
+    background-color: #EB3F57;    
+}
+@media (max-width:1200px) {
+    .about-container-wrap{
+        display: none;
+    }
+    
+}

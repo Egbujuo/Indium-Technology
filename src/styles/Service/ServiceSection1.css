@@ -1,0 +1,29 @@
+.service-section1-wrap{
+    background: #454654;
+    color: #fff;
+}
+.service-section2-btn{
+    background: linear-gradient(180deg, #EB3F57 0%, #893944 100%);
+    color: #fff;
+    padding: 5px;
+    border-radius: 32px;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    line-height: 19.07px;
+    font-weight: 700;
+    width: 89px;
+}
+
+@media (min-width:768px) {
+    .service-section1-wrap{
+        border-radius: 16px;
+
+    }
+    
+}
+@media (max-width:1200px) {
+    .service-Img{
+        display: none;
+    }
+    
+}
